@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>CloverClub.ico</ApplicationIcon>
+    <FileVersion>2.0</FileVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <PackageIcon>CloverClub.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="CloverClub.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\운빨계산기\운빨계산기\CloverClub.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
